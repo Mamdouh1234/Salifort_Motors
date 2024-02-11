@@ -38,4 +38,5 @@ in this project , we care about both false positives and false negatives , this 
  - False positives identified employees as leaving while they will stay, which will be time-consuming and expensive for HR department to find, interview, and hire new employees.
 
 Conclusion
+
 This model can benefit the HR deparmtent to identify which *employees are likely to quit, it might be possible to identify factors that contribute to their leaving.
