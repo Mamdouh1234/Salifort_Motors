@@ -26,6 +26,8 @@ We trained five models which are:
  - DecisionTree
  - RandomForest
  - XGBOOST
+
+Cross Validation technique was applied , the dataset was splitted to 70% for training , 15% for validation and 15% for unseen testing data which will be used to evaluate our champion model.
    
 considering accuracy measures , for each model , we output a confusion matrix and four accuracy measures , they are
  - Accuracy
@@ -36,6 +38,12 @@ considering accuracy measures , for each model , we output a confusion matrix an
 in this project , we care about both false positives and false negatives , this is because:
  - False Negatives means that the model inaccurately identified employees as staying , while they left.
  - False positives identified employees as leaving while they will stay, which will be time-consuming and expensive for HR department to find, interview, and hire new employees.
+   
+so we will interpret the F1-Score as the main metric for evaluating all of our five models.
+
+The champion model was **RandomForest** with F1-score 0.955 on the validation set.
+
+The model Scored 0.947 on the unseen testing set.
 
 ## Conclusion
 
