@@ -1,5 +1,5 @@
 # Salifort_Motors
-A predictive model for Salifor Motors to predict employee turn over
+A predictive model for Salifor Motors HR department to predict employee turn over
 
 ## Overview 
 
